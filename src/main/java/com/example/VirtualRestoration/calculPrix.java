@@ -16,6 +16,7 @@ public class calculPrix {
         String result = "prix de départ " + prix + "\n cout poids "+ prixPoids + "\n cout distance "+ prixDistance + "\n cout total " + prixTotal;
         System.out.println(result);
         return result;
+
     }
 
 }

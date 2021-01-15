@@ -1,13 +1,19 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>JSP - Hello World</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>Welcome VR</title>
 </head>
 <body>
-<h1><%= "Produit aléatoire" %>
-</h1>
-<br/>
-<a href="/VirtualRestoration-1.0-SNAPSHOT/services/price">Payer</a>
+<h1>Bienvenue sur VirtualRestoration</h1>
+<form action="price.php" method="post">
+    <p> <input type="text" name="prix" placeholder="prix" /></p>
+    <p>poids : <input type="text" name="poids" placeholder="poids" /></p>
+    <p>distance : <input type="text" name="distance" placeholder="distance"/></p>
+    <p><input type="submit" value="connaitre le prix total"></p>
+</form>
+
 </body>
 </html>
