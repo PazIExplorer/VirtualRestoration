@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <head>
+    <title>Price</title>
+
+</head>
     <body>
 <p>
 <?php
@@ -27,6 +30,6 @@ echo price($prix,$poids,$distance);
 ?>
 </p>
 </body>
-</head>
+
 
 
