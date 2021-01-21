@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<head>
+    <body>
+<p>
 <?php
 
 
@@ -21,10 +24,9 @@ function price($prix,$poids,$distance)
 }
 echo "test";
 echo price($prix,$poids,$distance);
-
-
-
-
-
-
 ?>
+</p>
+</body>
+</head>
+
+
